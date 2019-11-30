@@ -2,7 +2,7 @@
 
 def call(
     String region,
-    // String awsProfile,
+    String awsProfile,
     clusterName,
     clusterService,
     String image,
