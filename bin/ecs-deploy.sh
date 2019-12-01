@@ -1,4 +1,4 @@
-#!/usr/bin/env groovy
+#!/usr/bin/env bash
 
 # Setup default values for variables
 VERSION="3.4.0"
