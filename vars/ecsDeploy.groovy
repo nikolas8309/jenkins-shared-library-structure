@@ -32,10 +32,6 @@ def call(
     if (region) {
         command += " -r ${region}"
     }
-    
-    if (awsProfile) {
-        command += " -p ${awsProfile} "
-    }
 
     if (timeout) {
         command += " --timeout ${timeout} "
