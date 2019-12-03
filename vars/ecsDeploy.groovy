@@ -49,3 +49,5 @@ def call(
         ${command} -c ${clusterName} -n ${clusterService} -i ${image} -v
     """
 }
+
+groovy bin/ecs-deploy.sh
