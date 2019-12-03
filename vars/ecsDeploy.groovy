@@ -27,7 +27,7 @@ def call(
 //    }
 //    else{
         println "SLOW DEPLOYMENT..."
-        command = "/home/tomcat/jenkins-shared-library-structure/bin/ecs-deploy.sh"
+        command ="/opt/bitnami/apps/jenkins/jenkins_home/workspace/experimental_site_master/jenkins-shared-library-structure/bin/ecs-deploy.sh"
 //    }
     
     if (region) {
