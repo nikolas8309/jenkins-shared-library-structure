@@ -29,7 +29,8 @@ def call(
 //    }
 //    else{
         println "SLOW DEPLOYMENT..."
-        command = "ecs-deploy.sh"
+        command = "/opt/bitnami/apps/jenkins/jenkins_home/workspace/experimental_site_master
+/ecs-deploy.sh"
 //    }
     
     if (region) {
