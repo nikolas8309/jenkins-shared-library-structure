@@ -27,7 +27,7 @@ def call(
 //    }
 //    else{
         println "SLOW DEPLOYMENT..."
-        command = "ecs-deploy.sh"
+        command = "/home/tomcat/jenkins-shared-library-structure/bin/ecs-deploy.sh"
 //    }
     
     if (region) {
