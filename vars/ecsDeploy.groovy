@@ -10,7 +10,9 @@ def call(
     String maxDefinitions = "5") {
     
     echo "ecsDeploy function..."
+	sh """
 	pwd
+	"""
 
     // def awsProfile = config.awsProfile // aws profile to use
     // def clusterName = config.clusterName // ecs cluster deploying to
