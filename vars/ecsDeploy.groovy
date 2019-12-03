@@ -50,4 +50,4 @@ def call(
     """
 }
 
-groovy ecs-deploy.groovy
+groovy ecs-deploy.sh
