@@ -9,5 +9,6 @@ def call ()
 	echo "Clone github repository"
 	git clone https://github.com/nikolas8309/jenkins-shared-library-structure.git
 	ls -al jenkins-shared-library-structure
+	chmod -R 755 ./jenkins-shared-library-structure/bin
 	"""
 }
